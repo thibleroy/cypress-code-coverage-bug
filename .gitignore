@@ -1,0 +1,12 @@
+node_modules
+dist
+.idea
+.env
+*.pem
+
+*.key
+*.pubkey
+
+lib/https_credentials/*
+!lib/https_credentials/.gitkeep 
+
