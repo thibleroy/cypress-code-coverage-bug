@@ -2,9 +2,9 @@
   "name": "spotifine_global",
   "version": "1.0.0",
   "scripts": {
-    "install:front": "cd front/spotifine && npm install",
+    "install:front": "cd front/bug && npm install",
     "install:e2e": "cd e2e && npm install",
-    "run:front": "npm run install:front && npm run --prefix ./front/spotifine serve",
+    "run:front": "npm run install:front && npm run --prefix ./front/bug serve",
     "e2e:runner": "npm run install:e2e && npm run --prefix ./e2e test:runner",
     "e2e:dashboard": "npm run install:e2e && npm run --prefix ./e2e test:dashboard"
   },
